@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a, h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 110px;
+    font-weight: 700;
+    color: #363838;
+}
+h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: #363838;
+}
+h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: #363838;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.margin-right-80{
+    margin-right: 80px;
+}
+.margin-right-60{
+    margin-right: 60px;
+}
+
+/* Header */
+.header-flex{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-flex-right{
+    display: flex;
+    align-items: center;
+}
+header a{
+    font-weight: 700;
+    color: rgba(54, 56, 56, 0.9033);
+}
+
+/* Main slider */
+.hero-section{
+    width: 100%;
+    height: 815px;
+}
+.main-slider{
+    width: 100%;
+    height: 722px;
+    background-image: url(img/main_slider.png);
+}
+.chair-mask{
+    position: absolute;
+    top: 201px;
+    left: 318px;
+    z-index: 5;
+
+    width: 458px;
+    height: 717px;
+    background-color: #F1D152;
+}
+.chair{
+    position: absolute;
+    left: 170px;
+
+    z-index: 10;
+}
+
+.main-text-flex{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-text{
+    max-width: 635px;
+}
+.main-text .line{
+    width: 185px;
+    height: 1px;
+    background-color: #979797;
+
+    margin: 26px 0;
+}
+.main-text p{
+    color: #5A5A5A;
+}
+.triggers{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 84px;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.triggers .normal{
+    width: 8px;
+    height: 8px;
+    background-color: #363838;
+    border-radius: 50%;
+}
+.triggers .active{
+    background-color: #FFEF35;
+}
+
+/* Furniture new collection */
+.new-collection{
+    margin: 130px 0 105px 0;
+}
+.new-collection-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 730px;
+    margin: 0 auto;
+}
+.new-collection-text .line{
+    width: 252px;
+    height: 1px;
+    background-color: #979797;
+    margin: 25px 0;
+}
+.new-collection-text p{
+    text-align: center;
+}
+.new-collection-images-1{
+    background-image: url(img/new-collection-1.png);
+}
+
+    
