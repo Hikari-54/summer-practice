@@ -32,6 +32,9 @@ p{
     max-width: 1120px;
     margin: 0 auto;
 }
+section{
+    margin-bottom: 130px;
+}
 
 .margin-right-80{
     margin-right: 80px;
@@ -105,7 +108,7 @@ header a{
 .triggers{
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     width: 84px;
     margin-top: 85px;
     margin-left: auto;
@@ -122,9 +125,6 @@ header a{
 }
 
 /* Furniture new collection */
-.new-collection{
-    margin: 130px 0 105px 0;
-}
 .new-collection-text{
     display: flex;
     flex-direction: column;
@@ -132,6 +132,7 @@ header a{
 
     max-width: 730px;
     margin: 0 auto;
+    margin-bottom: 55px;
 }
 .new-collection-text .line{
     width: 252px;
@@ -142,8 +143,119 @@ header a{
 .new-collection-text p{
     text-align: center;
 }
+.new-collection-images{
+    display: flex;
+    justify-content: space-evenly;
+}
 .new-collection-images-1{
+    width: 350px;
+    height: 350px;
     background-image: url(img/new-collection-1.png);
 }
+.new-collection-images-2{
+    width: 350px;
+    height: 350px;
+    background-image: url(img/new-collection-2.png);
+}
+.new-collection-images-3{
+    width: 350px;
+    height: 350px;
+    background-image: url(img/new-collection-3.png);
+}
+.new-collection-images-4{
+    width: 350px;
+    height: 350px;
+    background-image: url(img/new-collection-4.png);
+}
+.new-collection-images-5{
+    width: 350px;
+    height: 350px;
+    background-image: url(img/new-collection-5.png);
+}
 
+/* aesthetic */
+.aesthetic{
+    width: 100%;
+    height: 616px;
+}
+.aesthetic .container{
+    height: 100%;
+}
+.aesthetic-background{
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+}
+.aesthetic-background-mask{
+    position: absolute;
+    z-index: -5;
+    width: 100%;
+    height: 616px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.aesthetic-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.aesthetic-text{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    max-width: 730px;
+}
+.aesthetic-text .line{    
+    width: 200px;
+    height: 1px;
+    background-color: #979797;
+}
+
+/* how-it-works */
+.how-it-works .container h3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.card-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-left: 15px;
+}
+.designer-consultation{
+    max-width: 310px;
+}
+.top-row{
+    margin-bottom: 30px;
+}
+
+.middle-line{
+    width: 100%;
+    height: 2px;
+    background-color: #363838;
+}
+.middle-line-first-dot{
+    position: relative;
+    top: -6px;
     
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #363838;
+}
+.dash-down{
+    position: relative;
+    left: 310px;
+    top: -10px;
+    
+    width: 2px;
+    height: 20px;
+    background-color: #363838;
+
+}
